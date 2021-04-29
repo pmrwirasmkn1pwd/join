@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presensi Ekstrakulikuler</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Sistem Digital PMR Wira SMK Negeri 1 Purwodadi</h3>
+          <p style="font-size: 12px;">Dibangun oleh Unit Umum Bidang Kreatifitas dan Teknologi Angkatan 20</p>
+          <div class="social-media">
+            <p>Sosial Media :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-blogger"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form name="sieOtan-recruitment" action="index.html" autocomplete="off">
+            <h3 class="title">Pendaftaran Calon Anggota</h3>
+            <label for="" style="color:white;font-size:12px">Perhatikan! (*) adalah Wajib Diisi</label>
+            <br>
+            <label for="" style="color:white">1. Isikan Data Dirimu dengan Baik dan Benar!</label>
+            <div class="input-container">
+              <input type="text" name="nama" class="input" />
+              <label for="">* Nama Lengkap</label>
+              <span>Nama Lengkap</span>
+            </div>
+            <div class="input-container">
+              <select type="tel" name="kelas" class="input" >
+                <option style="color:black" value="Tidak Memilih"></option>
+                <option style="color:black" value="AKL 1">AKL 1</option>
+                <option style="color:black" value="AKL 2">AKL 2</option>
+                <option style="color:black" value="AKL 3">AKL 3</option>
+                <option style="color:black" value="OTKP 1">OTKP 1</option>
+                <option style="color:black" value="OTKP 2">OTKP 2</option>
+                <option style="color:black" value="OTKP 3">OTKP 3</option>
+                <option style="color:black" value="BDP 1">BDP 1</option>
+                <option style="color:black" value="BDP 2">BDP 2</option>
+                <option style="color:black" value="TKJ Reg">TKJ Reg</option>
+                <option style="color:black" value="TKJ Axioo">TKJ Axioo</option>
+                <option style="color:black" value="MM 1">MM 1</option>
+                <option style="color:black" value="MM 2">MM 2</option>
+                <option style="color:black" value="TB 1">TB 1</option>
+                <option style="color:black" value="TB 2">TB 2</option>
+                <option style="color:black" value="TBG 1">TBG 1</option>
+                <option style="color:black" value="TBG 2">TBG 2</option>
+              </select>
+              <label for="">* Kelas</label>
+              <span>* Kelas</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">* Email Siswa</label>
+              <span>Email Siswa</span>
+            </div>
+            <div class="input-container">
+              <input type="number" name="nomor-whatsapp" class="input" />
+              <label for="">* Nomor Whatsapp</label>
+              <span>Nomor Whatsapp</span>
+            </div>
+            <br>
+            <label for="" style="color:white">2. Apakah anda sudah mendapatkan izin dari orang tua untuk mengikuti organisasi PMR?</label>
+            <div class="input-container">
+              <select type="tel" name="izin-ortu" class="input" >
+                <option style="color:black" value="Tidak Memilih">* PILIH</option>
+                <option style="color:black" value="SUDAH">SUDAH</option>
+                <option style="color:black" value="BELUM">BELUM</option>
+              </select>
+            </div>
+            <label for="" style="color:white">3. Apakah anda siap untuk mengikuti segala peraturan yang ditetapkan oleh pembimbing dan siap menjaga nama baik organisasi?</label>
+            <div class="input-container">
+              <select type="tel" name="mengikuti-aturan" class="input" >
+                <option style="color:black" value="Tidak Memilih">* PILIH</option>
+                <option style="color:black" value="SIAP">SIAP</option>
+                <option style="color:black" value="TIDAK">TIDAK</option>
+              </select>
+            </div>
+            <label for="" style="color:white">4. Apakah anda siap menerima segala Konsekuensi apabila melakukan suatu kesalahan?</label>
+            <div class="input-container">
+              <select type="tel" name="konsekuensi" class="input" >
+                <option style="color:black" value="Tidak Memilih">* PILIH</option>
+                <option style="color:black" value="SIAP">SIAP</option>
+                <option style="color:black" value="TIDAK">TIDAK</option>
+              </select>
+            </div>
+            <br>
+            <label for="" style="color:white">5. Apa alasan Anda ingin bergabung dengan PMR WIRA SMK N 1 PURWODADI?</label>
+            <div class="input-container textarea">
+              <textarea name="alasan-bergabung" class="input"></textarea>
+              <label for="">* Alasan & Motivasi</label>
+              <span>Alasan & Motivasi</span>
+            </div>
+            <label for="" style="color:white">6. Coba ceritakan Pengalaman Berorganisasi yang pernah kamu lalui (misalnya PMR,OSIS dsb)! [Boleh Dilewati]</label>
+            <div class="input-container textarea">
+              <textarea name="pengalaman-berorganisasi" class="input"></textarea>
+              <label for="">Pengalaman Berorganisasi</label>
+              <span>Pengalaman Berorganisasi</span>
+            </div>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label style="color:white" for="vehicle3">[Klik Kotak Disamping Kiri] Saya telah membaca,memahami dan memberikan jawaban dengan SEBENAR-BENARNYA yang dikemudian hari dapat Saya PERTANGGUNGJAWABKAN.</label><br><br>
+            <input id="btn_click" type="submit" value="Daftar" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzceckI7P3qZmM51bn5LMNWkuBDbmPqekfN5XDEsO-z0-JrhwMnX6t4d8xNM0luuBwIfw/exec'
+      const form = document.forms['sieOtan-recruitment']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => window.location = 'success.html')
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
