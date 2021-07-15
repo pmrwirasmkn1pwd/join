@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="contact-form">
-          <form name="sieOtan-recruitment" action="index.html" autocomplete="off" onsubmit="alert('Mohon Tunggu, Sedang Memproses');">
+          <form name="sieOtan-recruitment" action="index.html" autocomplete="off">
             <h3 class="title">Pendaftaran Calon Anggota</h3>
             <label for="" style="color:white;font-size:12px">Perhatikan! (*) adalah Wajib Diisi</label>
             <br>
@@ -131,6 +131,7 @@
       const form = document.forms['sieOtan-recruitment']
                        
       form.addEventListener('submit', e => {
+        document.getElementById("btn_click").disabled = true;
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => window.location = 'success.html')
